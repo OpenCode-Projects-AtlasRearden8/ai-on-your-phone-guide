@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A plain-English manual for using AI on your phone: choosing apps, on-device vs cloud models, voice input, privacy, battery and data, and accessibility.">
+<title>Chapter 4. Privacy Settings - The AI-on-Your-Phone Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>The AI-on-Your-Phone Guide</h1>
+  <p>A plain-English manual by Dylan Asdale - Asdale Dynamics, LLC</p>
+</header>
+<div class="layout">
+  <nav aria-label="Chapters" class="toc">
+    <h2>Chapters</h2>
+    <ol>
+      <li><a href="index.html">The AI-on-Your-Phone Guide</a></li>
+      <li><a href="01-choosing-apps.html">Chapter 1. Choosing AI Apps</a></li>
+      <li><a href="02-on-device-vs-cloud.html">Chapter 2. On-Device vs Cloud Models</a></li>
+      <li><a href="03-voice-input.html">Chapter 3. Voice Input</a></li>
+      <li><a href="04-privacy-settings.html" class="active">Chapter 4. Privacy Settings</a></li>
+      <li><a href="05-battery-and-data.html">Chapter 5. Battery and Data Tips</a></li>
+      <li><a href="06-accessibility.html">Chapter 6. Accessibility Extras</a></li>
+    </ol>
+  </nav>
+  <main>
+<h1>Chapter 4. Privacy Settings</h1>
+<p><em>Which switches to flip, which to leave alone, and how to keep private things private. No jargon, ten minutes of work, once.</em></p>
+<h2>The one-sentence philosophy</h2>
+<p>You don't have to distrust AI to care about privacy — you just have to decide, per conversation, <strong>"would I mail this on a postcard?"</strong> Treat cloud AI prompts like postcards: fine for most things, not for the truly private ones.</p>
+<h2>The settings that actually matter</h2>
+<p>Open your main AI app's settings (gear icon, usually top corner) and look for these. Names vary a little between apps, but these four exist somewhere in every major app:</p>
+<h3>1. "Improve the model for everyone" / training toggle</h3>
+<p>This is the big one. Most apps let you opt out of your chats being used to train future models. It's usually a switch labelled something like <strong>"Improve the model for everyone"</strong> or <strong>"Use my conversations to train."</strong> Turn it <strong>off</strong> if you want more predictability about where your words go. Note the honest trade-off: with it off, your chats may be kept shorter — apps often auto-delete them after a set number of days.</p>
+<h3>2. History on/off or temporary chats</h3>
+<p>Most apps have a temporary or no-history mode (a "ghost" or "hourglass" icon near the input box, or a toggle in settings). Chats held this way aren't saved to your account history. Good for the one-off questions you don't want sitting in a list.</p>
+<h3>3. Account and data controls</h3>
+<p>Look for the section called <strong>Data Controls</strong> or <strong>Privacy Settings</strong>. Useful items inside:</p>
+<ul>
+<li>see and export your chat history,</li>
+<li>delete specific chats (or clear all),</li>
+<li>manage what's connected to the app (email, calendar, contacts) — disconnect anything you didn't deliberately connect.</li>
+</ul>
+<h3>4. App permissions</h3>
+<p>Your AI app probably doesn't need much. Check <strong>Settings → Apps → [your AI app] → Permissions</strong> and expected minimums:</p>
+<ul>
+<li><strong>Network</strong>: obviously needed.</li>
+<li><strong>Microphone</strong>: only if you want voice input (Chapter 3).</li>
+<li><strong>Notifications</strong>: your choice.</li>
+<li><strong>Contacts, photos, precise location</strong>: usually <em>not</em> needed. If the app asks via a popup, choosing "ask every time" or "deny" is fine and the app keeps working.</li>
+</ul>
+<p>Android additional check: in the keyboard settings, mic/voice typing must be on — Gboard's privacy settings are worth a quick look too.</p>
+<h2>The details-worth-keeping-private list</h2>
+<p>As a rule of thumb, keep these out of <em>cloud</em> prompts (paste nothing, type nothing, say nothing):</p>
+<ul>
+<li>your full name plus address, birth date, or account numbers together,</li>
+<li>patient, student, or client details — anything about a specific person you serve at work,</li>
+<li>passwords, 2FA backup codes, API keys (if you ever dabble in tech later, chapter 3 of the companion manual covers keys; consumers like you don't need them),</li>
+<li>exact home location ("we're away until the 20th" plus your street name is a postcard you wouldn't mail),</li>
+<li>anything from a document marked confidential, and your employers' internal documents, always — even if the AI <em>was</em> allowed, your workplace almost certainly forbids it.</li>
+</ul>
+<p>Fine to send freely: general questions, recipes, how-things-work, "reword this email for me" (just delete specific names if you wouldn't post it on a public forum... though honestly, most name-and-email combos are harmless; use your common sense).</p>
+<h2>Phone-level privacy (5 minutes, do once)</h2>
+<ul>
+<li><strong>Find My / Device protect</strong>: ensure your phone can be located and wiped if lost. Both iPhone and Android have this under Settings — it's the biggest privacy win of all.</li>
+<li><strong>App permissions, one pass</strong>: Settings → Privacy (iPhone) or Permissions (Android): a two-minute scroll. Anything surprising (why does <em>this</em> app need my microphone?), lock it down to "ask every time" or off.</li>
+<li><strong>Keyboard</strong>: if you use an AI-powered keyboard, find its "learn from my typing" setting and decide consciously. Offline keyboards (iOS default; most Android defaults) don't upload by design.</li>
+</ul>
+<h2>If privacy is travelling with strangers' data anyway...</h2>
+<p>Just so we're clear where each option sits on the spectrum:</p>
+<ul>
+<li><strong>Fully local AI</strong> (Chapter 2): nothing leaves the phone. The strongest choice.</li>
+<li><strong>Built-in assistant on a recent phone</strong>: mostly on-device processing, private cloud for the heavier parts, phone maker promises not to use your content for training. Good middle ground.</li>
+<li><strong>Typical cloud AI app</strong>: company says what it stores in its privacy policy; your training-off toggle limits reuse. Acceptable with the details list respected.</li>
+<li><strong>Unknown apps from Chapter 1's copycat list</strong>: treat as the worst option. Delete.</li>
+</ul>
+<h2>Deleting your history (2 minutes, do occasionally)</h2>
+<p>Inside your main AI app: open chats list → long-press or "..." on a chat → <strong>Delete</strong>. For a clean sweep, the "Data Controls"/"Privacy" section has <strong>Delete all chats</strong>. On the account side, if you created an account just to use an app and want out, look for <strong>Delete account</strong> — most apps bury it under Profile → Settings → Account. It's worth the 5 minutes: account deletion removes data the <em>app</em> holds, which uninstalling alone does not.</p>
+<h2>Checkpoint</h2>
+<p>You should now be able to:</p>
+<ul>
+<li>Turn off "improve the model" style training toggles.</li>
+<li>Use temporary/no-history chats for sensitive topics.</li>
+<li>Recite the postcard rule and the five things that never go in a cloud prompt.</li>
+</ul>
+<p>Next: keeping your battery and data plan alive throughout all of this.</p>
+<p><a href="05-battery-and-data.html">Next: Chapter 5 — Battery and Data Tips</a></p>
+    <footer class="pager">
+      <a href="03-voice-input.html">&larr; Chapter 3. Voice Input</a>
+      <a href="05-battery-and-data.html">Chapter 5. Battery and Data Tips &rarr;</a>
+    </footer>
+    <footer class="colophon">
+      <p>The AI-on-Your-Phone Guide - a plain-English manual from Asdale Dynamics, LLC.
+      Runs entirely offline; nothing here requires an account or a key.</p>
+    </footer>
+  </main>
+</div>
+</body>
+</html>
